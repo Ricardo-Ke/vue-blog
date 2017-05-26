@@ -1,0 +1,100 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0;font-weight:normal}
+
+body{background:#fff;-webkit-text-size-adjust:100%;}
+
+a{text-decoration:none}
+
+/*a:hover{color:#cd0200;text-decoration:underline}*/
+
+em{font-style:normal}
+
+li{list-style:none}
+
+img{border:0;vertical-align:middle}
+
+table{border-collapse:collapse;border-spacing:0}
+
+p{word-wrap:break-word}
+/*css init*/
+
+html, body {
+  font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.day-mode {
+	background-color: #fff;
+}
+
+.night-mode {
+	background-color: #3f3f3f;
+}
+
+@font-face {
+  font-family: "iconfont";
+  src: url("../fonts/iconfont.eot");
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.woff') format('woff'),
+  url('../fonts/iconfont.ttf') format('truetype'),
+  url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, #app, #main-context{
+  height: 100%;
+  min-height: 500px;
+}
+
+.el-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/*@media (min-width: 768px) {
+  .navbar-box {
+    width: 45px;
+    height: 100%;
+  }
+  #context {
+    margin-left: 45px;
+  }
+  #post-detail {
+    width: 700px;
+    padding: 20px 0 10px 45px;
+  }
+  #login-container {
+    margin-left: 45px;
+    width: auto;
+  }
+}
+
+@media not screen and (min-width: 768px) {
+  .navbar-box {
+    background-color: #fff;
+    box-shadow: 0 1px 4px #eee;
+  }
+  #context {
+    margin-top: 45px;
+  }
+  #sidelogo {
+    display: none;
+  }
+  .posts-container {
+    width: 100%;
+  }
+  .footer-container p {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+}*/
